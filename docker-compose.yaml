@@ -5,7 +5,7 @@ services:
     ports:
       - '8080:8080'
     depends_on:
-      - api
+      - nodejs-backend
     environment:
       - ENVIRONMENT=prod
   nodejs-backend:
