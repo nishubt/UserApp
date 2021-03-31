@@ -1,0 +1,4 @@
+export const ADD_USERS= 'ADD_USERS';
+export const GET_USERS_FAILED = 'GET_USERS_FAILED';
+export const GET_USERS_LOADING = 'GET_USERS_LOADING';
+export const ADD_USERS_FAILED= 'ADD_USERS_FAILED';
