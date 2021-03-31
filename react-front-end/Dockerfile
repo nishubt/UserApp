@@ -4,8 +4,8 @@ WORKDIR /app
 COPY . ./
 ARG ENVIRONMENT
 ENV REACT_APP_ENV ${ENVIRONMENT}
-RUN npm
-RUN npm build
+RUN yarn
+RUN yarn build
 
 # server environment
 FROM nginx:alpine
