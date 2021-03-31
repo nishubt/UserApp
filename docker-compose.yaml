@@ -1,0 +1,20 @@
+version: '2'
+services:
+  react-front-end:
+    build: ./react-front-end
+    ports:
+      - '8080:8080'
+    depends_on:
+      - api
+    environment:
+      - ENVIRONMENT=prod
+  nodejs-backend:
+    build: ./nodejs-backend
+    ports:
+      - '3001:3001'
+    depends_on:
+      - mongo
+  mongo:
+    image: mongo
+    ports:
+      - '27017:27017'
