@@ -1,1 +1,1 @@
-export const baseUrl = process.env.REACT_APP_ENV === 'prod'?process.env.REACT_APP_BASE_URL_PROD:process.env.REACT_APP_ENV === 'stage'?process.env.REACT_APP_BASE_URL_STAGE:process.env.REACT_APP_ENV === 'dev'?process.env.REACT_APP_BASE_URL_DEV:process.env.REACT_APP_BASE_URL_LOCAL;
+export const baseUrl = process.env.REACT_APP_ENV === 'local'?'http://localhost:3001/':'http://nodejs-backend:3001/'

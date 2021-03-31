@@ -1,7 +1,9 @@
+require('dotenv').config();
 const express = require('express'),http = require('http');
 const userRouter = require('./router/userRouter');
 const cors = require('cors');
 const { dbConnect } = require('./dbConnect');
+
 const debug = require('debug')('usertool:server');
 var port = normalizePort(process.env.PORT || '3001');
 
