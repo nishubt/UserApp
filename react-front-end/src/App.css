@@ -3,11 +3,12 @@
 }
 .app-style{
   min-width:1500px;
-  overflow-x: hidden;  
+  overflow-x: auto;  
+  height: 100vh;
 }
 table {
-  margin: 20px 10px;
-  width: 100% !important;
+  margin: auto;
+  width: 80% !important;
 }
 th {
   font-style: normal;
@@ -16,7 +17,6 @@ th {
   line-height: 20px;
   border-right: none !important;
   border-left: none !important;
-  background: #f1f1f1;
   position: sticky;
   top: 0;
   z-index: 10;
@@ -32,7 +32,7 @@ th {
   background: #0058A3;
   margin: auto;
   margin-top: 20px;
-  margin-left: 15px;
+  margin-left: auto;
   justify-content: flex-start;
   color: #FFFFFF;
   font-size: 12px;
@@ -76,15 +76,16 @@ th {
 }
 
 .userHeader-text{
-  width: 100%;
+  width: 90%;
   height: 52px;
   left: 0%;
   right: 0%;
   margin-top: 25px;
-  margin-left: 20px;
+  margin-left: auto;
   font-style: normal;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 32px;
   line-height: 28px;
   color: #000000;
+  
 }

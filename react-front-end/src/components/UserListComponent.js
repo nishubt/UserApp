@@ -68,7 +68,7 @@ class UserList extends Component {
                 <div className="userHeader-text">
                     <div>Users</div>
                 </div>
-                <Table bordered>
+                <Table  striped bordered hover>
                     <thead>
                         <tr>
                             <th scope="col">First Name</th>

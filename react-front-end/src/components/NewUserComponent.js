@@ -39,11 +39,11 @@ class NewUser extends Component{
     render(){
         return(
             <div >
-                <div className="create-btn" onClick={this.toggleModal}>Add User
+                <div className="create-btn" onClick={this.toggleModal}>Create
                        <img className="create-btn-icon"  src="assets/images/create-btn-img.svg" alt="Create"/> 
                 </div>
                 <Modal  size="lg" isOpen={this.state.isModalOpen} toggle={() => this.toggleModal()} >
-                    <ModalHeader toggle={() => this.toggleModal()}>Add User</ModalHeader>
+                    <ModalHeader toggle={() => this.toggleModal()}>Create User</ModalHeader>
                         <ModalBody>
                             <LocalForm onSubmit={(values) => this.handleCommentSubmit(values)}> 
                                 <Row className="form-group">
@@ -122,7 +122,7 @@ class NewUser extends Component{
                                 <Row className="form-group">
                                     <Col className="save-btn-div">
                                         <Button type="submit" color="primary">
-                                        Add
+                                        Save
                                         </Button>
                                     </Col>
                                 </Row>
